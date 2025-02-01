@@ -12,6 +12,11 @@ Check if the installation was completed:
 wsl -v
 ````
 
+Activate Ubuntu with WSL
+````commandline
+wsl
+````
+
 Make sure everything is up to date:
 ````commandline
 sudo apt update && sudo apt upgrade
