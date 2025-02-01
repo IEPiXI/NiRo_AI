@@ -2,17 +2,14 @@
 
 ## WSL Ubuntu 24.04 for Windows
 
-Check if you have installed **WSL**, by opening the **Windows Powershell** and type:
-````commandline
-wsl -v
-````
-
-If not make sure you have installed WSL for Windows by checking the manual at the
-[Microsoft Website](https://learn.microsoft.com/en-us/windows/wsl/install-manual).
-
-Then install Ubuntu 24.04 and follow the instructions:
+Install Ubuntu 24.04 and follow the instructions:
 ````commandline
 wsl --install --d Ubuntu-24.04
+````
+
+Check if the installation was completed:
+````commandline
+wsl -v
 ````
 
 Make sure everything is up to date:
