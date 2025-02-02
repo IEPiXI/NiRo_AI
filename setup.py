@@ -10,6 +10,7 @@ setup(
     packages=find_packages(),
     install_requires=[
         'numpy',
+        'kagglehub'
     ],
     python_requires='>=3.10',
 )
