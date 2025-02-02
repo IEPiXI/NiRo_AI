@@ -4,6 +4,7 @@
 ````commandline
 mkdir ~/Workspace && cd ~/Workspace
 git clone https://github.com/IEPiXI/NiRo_AI.git && cd NiRo_AI
+git remote set-url origin git@github.com:IEPiXI/NiRo_AI.git
 ````
 
 ## Create a Python 3.10 env and install python package
