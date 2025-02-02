@@ -17,7 +17,13 @@ Activate it:
 conda activate niro
 ````
 
+Install the requirements for the NiRo_AI python package, and either choose ``cuda`` or ``intel``:
+````commandline
+pip install -r requirements_cuda.txt
+````
+
 Install the NiRo_AI python package:
 ````commandline
 pip install .
 ````
+
